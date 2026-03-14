@@ -1,10 +1,11 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+int main(void) {
 
-int main(void)
-{
-	double A, B;
+
+	double A;
+	double B;
+	double C;
+
 	scanf("%lf %lf", &A, &B);
-	double DIV = A / B;
-	printf("%.10f", DIV);
+	C = A / B;
+	printf("%.12f", C);
 }
