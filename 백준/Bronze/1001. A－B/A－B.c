@@ -1,10 +1,9 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main(void)
-{
-	int A, B;
+int main(void) {
+	int A;
+	int B;
 	scanf("%d %d", &A, &B);
-	int SUB = A - B;
-	printf("%d", SUB);
+	printf("%d",A - B);
 }
